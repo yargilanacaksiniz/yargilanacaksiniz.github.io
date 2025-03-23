@@ -1,0 +1,40 @@
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-image: url("./genelgrev.png");
+  background-size: cover;
+}
+
+span:hover {
+  color: red;
+}
+
+a {
+  color: red;
+  background-color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.s {
+  padding: 2px;
+  font-size: 1em;
+  color: gray;
+}
+
+.yargilanacaksiniz {
+  position: absolute;
+  color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
+}
+
+

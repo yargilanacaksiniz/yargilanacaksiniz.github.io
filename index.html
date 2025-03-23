@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yargılanacaksınız!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="yargilanacaksiniz"><a href="https://sendikalmucadele.org/ekmek-adalet-ve-ozgurluk-icin-genel-greve/"><span id="txt">Genel Grev, Genel Direniş!</span></a></div>
+    <div class="s"></div>    
+    <script>
+      var greetings = [ "Kahrolsun İstibdat, Yaşasın Hürriyet", 
+                        "Güvendiğin padişahın, O da bir gün devrilir", 
+                        "Genel Grev, Genel Direniş!", 
+                        "Kurtuluş yok tek başına, ya hep beraber ya hiçbirimiz!", 
+                        ];
+    setInterval(changeText, 4000);
+
+      function changeText() 
+      {
+          var greeting_id = Math.floor(Math.random() * greetings.length);
+          document.getElementById('txt').innerHTML = greetings[greeting_id];
+      }
+      </script>
+  </body>
+</html>
+
